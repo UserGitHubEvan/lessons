@@ -52,3 +52,6 @@ p {
 .footer-text {
   color: green;
 }
+.footer-text.color-tomato p {
+  color: tomato;
+}
