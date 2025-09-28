@@ -1,0 +1,98 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Підключення стилів */
+
+/* Основні стилі  */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+}
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-style: oblique;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.4;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  white-space: nowrap;
+}
+.header-title {
+  color: chartreuse;
+  text-decoration: overline;
+  text-shadow: 2px 2px 5px blue;
+}
+.font-size {
+  font-family: Tomorrow, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+.font-style {
+  font-family: Tomorrow, fantasy;
+  font-weight: 600;
+  font-style: italic;
+}
+.font-weight {
+  font-family: Tomorrow, serif;
+  font-weight: 800;
+}
+.color {
+  font-family: Caveat, serif;
+  font-weight: 500;
+  color: cornflowerblue;
+}
+.text-align {
+  font-family: Caveat, sans-serif;
+  font-weight: 600;
+  text-align: right;
+}
+.text-decoration {
+  font-family: Caveat, fantasy;
+  font-weight: 700;
+  text-decoration: line-through;
+}
+.text-shadow {
+  font-family: iMuch, monospace;
+  font-weight: 300;
+  text-shadow: 1px 1px 3px coral;
+}
+.text-transform {
+  font-family: iMuch, cursive;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.line-height {
+  font-family: iMuch, sans-serif;
+  font-weight: 700;
+  line-height: 2;
+}
+.letter-spacing {
+  letter-spacing: 20px;
+  color: red;
+  text-align: center;
+  text-shadow: 2px 9px 9px blue, -8px -3px 9px yellow;
+}
+.word-spacing {
+  word-spacing: 20px;
+  color: green;
+  text-align: right;
+  text-decoration: line-through;
+  text-decoration-thickness: from-font;
+  text-decoration-line: spelling-error;
+}
+.white-space {
+  white-space: nowrap;
+  color: blue;
+}
+.footer-title {
+  color: black;
+  text-decoration: underline;
+  text-shadow: 2px 2px 5px red;
+}
