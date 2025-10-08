@@ -1,0 +1,311 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Підключення стилів */
+
+/* Основні стилі  */
+.main-title {
+  font-size: 30px;
+  font-family: "Metal", sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.border {
+  text-align: center;
+  font-size: 0;
+  margin-bottom: 20px;
+}
+.title {
+  font-size: 20px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.border-block-1,
+.border-block-2,
+.border-block-3,
+.border-block-4,
+.border-block-5 {
+  font-size: 16px;
+  width: 150px;
+  display: inline-block;
+  padding: 20px;
+  margin: 20px 20px 0 0;
+}
+.border-block-1 {
+  border: 5px solid red;
+}
+.border-block-2 {
+  border: 5px dotted green;
+}
+.border-block-3 {
+  border: 5px dashed blue;
+}
+.border-block-4 {
+  border: 5px double black;
+}
+.border-block-5 {
+  border: 5px solid transparent;
+}
+
+.outline {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.block {
+  width: 200px;
+  padding: 20px;
+  display: inline-block;
+  border: 5px solid red;
+  outline: 20px solid black;
+}
+
+.border-radius {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 0;
+}
+.border-radius-block-1,
+.border-radius-block-2,
+.border-radius-block-3,
+.border-radius-block-4 {
+  font-size: 16px;
+  width: 150px;
+  display: inline-block;
+  padding: 20px;
+  margin: 20px 20px 0 0;
+  color: white;
+}
+.border-radius-block-1 {
+  background-color: red;
+  border-radius: 50%;
+}
+.border-radius-block-2 {
+  background-color: green;
+  border-radius: 58% 42% 87% 13% / 81% 32% 68% 19%;
+}
+.border-radius-block-3 {
+  background-color: blue;
+  border-radius: 51% 49% 100% 0% / 30% 0% 100% 70%;
+}
+.border-radius-block-4 {
+  background-color: black;
+  border-radius: 51% 49% 70% 30% / 30% 66% 34% 70%;
+}
+
+.box-shadow {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.box-shadow-block-1,
+.box-shadow-block-2 {
+  margin: 0 auto 40px;
+  display: block;
+  width: 150px;
+  padding: 20px;
+  border: 1px solid black;
+  box-shadow: 20px 20px 1px rgba(0, 0, 0, 0.115);
+}
+.box-shadow-block-2 {
+  box-shadow: inset 75px 55px rgba(0, 0, 0, 0.115);
+}
+
+.opacity {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.opacity-block-1,
+.opacity-block-2,
+.opacity-block-3 {
+  width: 150px;
+  display: inline-block;
+  padding: 20px;
+  margin: 20px 20px 0 0;
+  border: 1px solid black;
+}
+.opacity-block-1 {
+  opacity: 0;
+}
+.opacity-block-2 {
+  opacity: 0.5;
+}
+.opacity-block-3 {
+  opacity: 1;
+}
+
+.visibility {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.visibility-block-1,
+.visibility-block-2 {
+  width: 150px;
+  display: inline-block;
+  padding: 20px;
+  margin: 20px 20px 0 0;
+}
+.visibility-block-1 {
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  visibility: visible;
+}
+.visibility-block-2 {
+  background-color: white;
+  border: 2px solid black;
+  visibility: hidden;
+}
+
+.background .title {
+  margin-bottom: 15px;
+}
+.subtitle {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.background-color,
+.background-image,
+.background-repeat,
+.background-position,
+.background-attachment,
+.background-size,
+.background-clip,
+.background-universal {
+  margin-bottom: 15px;
+}
+.background-color-block {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.background-image-block {
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/autumn.jpeg"),
+    linear-gradient(
+      90deg,
+      rgba(129, 165, 181, 1) 0%,
+      rgba(87, 199, 133, 1) 50%,
+      rgba(237, 221, 83, 1) 100%
+    );
+}
+
+.background-repeat-block {
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/autumn.jpeg");
+  background-repeat: no-repeat;
+}
+
+.background-position-block {
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/autumn.jpeg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.background-attachment-block {
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/autumn.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.background-size-block {
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/autumn.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.background-clip-block {
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/autumn.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 20px double green;
+  background-clip: padding-box;
+}
+
+.background-universal-block {
+  width: 200px;
+  height: 200px;
+  background: url("../img/autumn.jpeg") center / cover no-repeat scroll;
+}
+
+/* Верстка частини макету */
+.list {
+  max-width: 351px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  padding: 17px 40px;
+}
+.item {
+  font-size: 14px;
+  color: #252b42;
+  line-height: 228.571429%; /* 32/14 */
+  letter-spacing: 0.20000000298023224px;
+  background: url("../img/active.png") left top no-repeat;
+  padding-left: 42px;
+  margin-bottom: 15px;
+  min-height: 32px;
+}
+.item.not-active {
+  background-image: url("../img/not-active.png");
+}
+
+.hero {
+  padding: 114px 394px 110px 1008px;
+  background: url("../img/Rectangle.png") no-repeat;
+}
+.content {
+  max-width: 518px;
+}
+.content .subtitle {
+  color: #2f302c;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  line-height: 140%; /* 28px/20 */
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.content .text {
+  max-width: 374px;
+  color: #7e7f7c;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  line-height: 125%; /* 20px/16 */
+}
+.content .title {
+  color: #2f302c;
+  font-size: 96px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  line-height: 104.166667%; /* 100px/96 */
+  letter-spacing: 0;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.gallery {
+  font-weight: 700;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  max-width: 308px;
+  background-color: #2f302c;
+  margin-bottom: 36px;
+}
