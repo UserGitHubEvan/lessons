@@ -266,11 +266,14 @@
 }
 
 .hero {
-  padding: 114px 394px 110px 1008px;
   background: url("../img/Rectangle.png") no-repeat;
 }
+.wrapper {
+  margin: 0 auto;
+  max-width: 1392px;
+}
 .content {
-  max-width: 518px;
+  padding: 114px 130px 110px 744px;
 }
 .content .subtitle {
   color: #2f302c;
