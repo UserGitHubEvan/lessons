@@ -254,7 +254,7 @@
 .item {
   font-size: 14px;
   color: #252b42;
-  line-height: 228.571429%; /* 32/14 */
+  line-height: 171.428571%; /* 24px/14 */
   letter-spacing: 0.20000000298023224px;
   background: url("../img/active.png") left top no-repeat;
   padding-left: 42px;
@@ -266,14 +266,16 @@
 }
 
 .hero {
-  background: url("../img/Rectangle.png") no-repeat;
+  background: url("../img/Rectangle.png") left center / cover no-repeat, #d9d9d9;
+  padding: 114px 0 110px 0;
 }
-.wrapper {
-  margin: 0 auto;
+.container {
   max-width: 1392px;
+  margin: 0 auto;
 }
 .content {
-  padding: 114px 130px 110px 744px;
+  margin-left: auto;
+  max-width: 518px;
 }
 .content .subtitle {
   color: #2f302c;
@@ -302,7 +304,7 @@
   text-transform: uppercase;
   margin-bottom: 16px;
 }
-.gallery {
+.content .title span {
   font-weight: 700;
 }
 .line {
