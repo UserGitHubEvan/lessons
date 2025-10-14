@@ -1,0 +1,262 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Підключення стилів */
+
+/* Основні стилі  */
+.main-title {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 15px;
+}
+.subtitle {
+  font-size: 35px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 10px;
+}
+.category-title {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.category-block {
+  margin-bottom: 20px;
+}
+a {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.rest {
+  color: red;
+}
+.hover:hover {
+  background-color: blue;
+  color: white;
+}
+.active:active {
+  outline: 1px solid green;
+}
+.visited:visited {
+  color: yellow;
+}
+.focus:focus {
+  background-color: grey;
+}
+.focus-sivible:focus-visible {
+  outline: 1px solid pink;
+}
+.block-target {
+  display: none;
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+}
+.block-target:target {
+  display: block;
+}
+
+.category-block-text {
+  padding: 15px;
+  background-color: white;
+  color: #000;
+  margin-bottom: 10px;
+}
+.category-block-text p {
+  margin-bottom: 10px;
+}
+
+.category-block-text p:first-child {
+  color: red;
+}
+/* .category-block-text p:first-of-type {
+  color: green;
+} */
+.category-block-text p:last-child {
+  color: green;
+}
+/* .category-block-text p:last-of-type {
+  color: blue;
+} */
+
+.category-block-text p:nth-child(5) {
+  color: blue;
+}
+/* .category-block-text p:nth-of-type(5) {
+  color: pink;
+} */
+
+/* .category-block-text p:nth-of-type(odd) {
+  color: pink;
+} */
+
+/* .category-block-text p:nth-of-type(even) {
+  color: pink;
+} */
+
+/* .category-block-text p:nth-of-type(3n) {
+  color: pink;
+} */
+
+/* .category-block-text p:nth-of-type(3n + 1) {
+  color: pink;
+} */
+
+/* .category-block-text p:not(.no) {
+  color: pink;
+} */
+/* .category-block-text:has(.yes) {
+  color: pink;
+} */
+
+.text-block {
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 40px;
+}
+
+.text-block::before {
+  content: "BEFORE";
+  margin-right: 40px;
+  background-color: white;
+  color: black;
+}
+.text-block::after {
+  content: "AFTER";
+  margin-left: 40px;
+  background-color: white;
+  color: black;
+}
+
+.list-pseudo-elements {
+  padding: 16px 40px;
+  background-color: white;
+  max-width: 351px;
+  color: #252b42;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 171.428571%; /* 24px/14 */
+  letter-spacing: 0.20000000298023224px;
+}
+.list-pseudo-elements li {
+  margin-bottom: 15px;
+}
+.list-pseudo-elements li:last-child {
+  margin-bottom: 0;
+}
+.list-pseudo-elements li::before {
+  content: "";
+  background: url("../img/active.png") 0 0 no-repeat;
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  padding-left: 42px;
+}
+
+.game {
+  background-color: wheat;
+  padding: 50px;
+}
+.game h2 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.field {
+  background-color: chocolate;
+  max-width: 500px;
+  height: 456px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.start {
+  background: url("../img/start.png") left top / cover no-repeat;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+}
+.block-1 {
+  margin-top: -20px;
+  margin-left: 50px;
+  width: 100px;
+  height: 20px;
+  background-color: #000;
+}
+.block-2 {
+  margin-left: 150px;
+  margin-top: -20px;
+  width: 10px;
+  height: 100px;
+  background-color: red;
+}
+.block-3 {
+  margin-left: 160px;
+  margin-top: -20px;
+  width: 100px;
+  height: 20px;
+  background-color: green;
+}
+.block-4 {
+  margin-left: 260px;
+  margin-top: -20px;
+  width: 10px;
+  height: 100px;
+  background-color: blue;
+}
+.block-5 {
+  margin-left: 170px;
+  width: 100px;
+  height: 30px;
+  background-color: pink;
+}
+.block-6 {
+  margin-top: -10px;
+  margin-left: 70px;
+  width: 100px;
+  height: 10px;
+  background-color: brown;
+}
+.block-7 {
+  margin-left: 70px;
+  width: 10px;
+  height: 100px;
+  background-color: yellow;
+}
+.block-8 {
+  margin-left: 70px;
+  width: 100px;
+  height: 20px;
+  background-color: purple;
+}
+.block-9 {
+  margin-top: -20px;
+  margin-left: 170px;
+  width: 10px;
+  height: 80px;
+  background-color: grey;
+}
+.block-10 {
+  margin-left: 170px;
+  width: 50px;
+  height: 20px;
+  background-color: white;
+}
+.finish {
+  background: url(../img/finish.jpg) left top / cover no-repeat;
+  width: 50px;
+  height: 50px;
+  margin-top: -30px;
+  margin-left: 216px;
+}
+
+[class*="block-"]:not(.start, .finish) {
+  visibility: hidden;
+}
+
+.field > *:hover + *,
+.field > *:hover {
+  visibility: visible;
+}

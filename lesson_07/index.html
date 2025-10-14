@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- Ukraine - uk -->
+<!-- Мова не визначена - zxx -->
+<!-- Коди мов https://html-css.co.ua/html/lang-kodu-mov/ -->
+<html lang="zxx">
+	<head>
+		<!-- Кодування тексту -->
+		<meta charset="UTF-8">
+		<!-- Налаштування в'юпорту (адаптиву, масштабу тощо) -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Варіант !! Основний!! (підключення окремого файлу) -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Заголовок сторінки в браузері (вкладці) -->
+		<title>Lesson 7</title>
+	</head>
+	<body>
+		<header>
+			<span>Я хедер</span>
+		</header>
+		<main>
+			<h1 class="main-title">Псевдокласи та псевдоелементи</h1>
+			<h2 class="subtitle">Псевдокласи:</h2>
+			<h3 class="category-title">Стану</h3>
+			<div class="category-block">
+				<a href="#" class="rest">Rest</a>
+				<a href="#" class="hover">Hover</a>
+				<a href="#" class="active">Active</a>
+				<a href="#" class="visited">Visited</a>
+				<a href="#" class="focus">Focus</a>
+				<a href="#" class="focus-sivible">Focus-sivible</a>
+				<a href="#block-target">Target</a>
+				<div id="block-target" class="block-target"></div>
+			</div>
+
+			<h3 class="category-title">Положення в коді</h3>
+			<div class="category-block-text yes">
+				<p>FIRST-CHILD. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+					Itaque id omnis, accusamus libero similique modi dolores ipsum aliquam
+					dolorum! Quisquam?</p>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+					Itaque id omnis, accusamus libero similique modi dolores ipsum aliquam
+					dolorum! Quisquam?</p>
+				<p class="yes">HAS with class "yes". Lorem ipsum, dolor sit amet consectetur
+					adipisicing elit.
+					Itaque id omnis, accusamus libero similique modi dolores ipsum aliquam
+					dolorum! Quisquam?</p>
+				<p class="no">NOT with class "no". Lorem ipsum, dolor sit amet consectetur
+					adipisicing elit.
+					Itaque id omnis, accusamus libero similique modi dolores ipsum aliquam
+					dolorum! Quisquam?</p>
+				<p>NTH-CHILD(5). Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+					Itaque id omnis, accusamus libero similique modi dolores ipsum aliquam
+					dolorum! Quisquam?</p>
+				<p>LAST-CHILD. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+					Itaque id omnis, accusamus libero similique modi dolores ipsum aliquam
+					dolorum! Quisquam?</p>
+			</div>
+
+			<h2 class="subtitle">Псевдоелементи:</h2>
+			<div class="text-block">Text</div>
+
+			<h2 class="subtitle">With pseudo-element</h2>
+			<ul class="list-pseudo-elements">
+				<li>Unlimited product updates</li>
+				<li>Unlimited product</li>
+				<li>Unlimited product</li>
+			</ul>
+
+			<section class="game">
+				<h2>Грай</h2>
+				<div class="field">
+					<div class="start"></div>
+					<div class="block-1"></div>
+					<div class="block-2"></div>
+					<div class="block-3"></div>
+					<div class="block-4"></div>
+					<div class="block-5"></div>
+					<div class="block-6"></div>
+					<div class="block-7"></div>
+					<div class="block-8"></div>
+					<div class="block-9"></div>
+					<div class="block-10"></div>
+					<div class="finish"></div>
+				</div>
+			</section>
+
+		</main>
+		<footer>
+			<span>Я футер</span>
+		</footer>
+	</html>
