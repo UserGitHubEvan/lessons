@@ -1,0 +1,81 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Підключення стилів */
+
+/* Основні стилі  */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.decor-left,
+.decor-right {
+  display: block;
+}
+.first-page__icon {
+  margin-bottom: 20px;
+}
+.first-page__icon span {
+  margin-left: 20px;
+  color: #343434;
+  font-size: 19px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 142.105263%; /* 27px/19px */
+  vertical-align: bottom;
+}
+.first-page__btn {
+  background-color: transparent;
+}
+.first-page__btn::after {
+  content: "";
+  background: url("../img/right-arrow.svg") no-repeat;
+  width: 25px;
+  height: 25px;
+}
+.first-page__right span {
+  display: inline-block;
+  max-width: 680px;
+  margin-left: 20px;
+  color: #343434;
+  font-size: 19px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 142.105263%; /* 27px/19px */
+}
+.second-page span {
+  display: inline-block;
+  max-width: 390px;
+  margin-left: 20px;
+  color: #343434;
+  font-size: 19px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 142.105263%; /* 27px/19px */
+}
+
+.third-page span {
+  display: inline-block;
+  max-width: 696px;
+  margin-left: 20px;
+  color: #ba936f;
+  font-size: 22px;
+  font-family: "Lora", serif;
+  font-weight: 400;
+}
+.third-page__one-img,
+.third-page__two-img {
+  margin-bottom: 40px;
+}
+.third-page__one-img img {
+  width: 385px;
+}
+.third-page__two-img img {
+  width: 368px;
+}
+.third-page__third-img img {
+  width: 362px;
+}
