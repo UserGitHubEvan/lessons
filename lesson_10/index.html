@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- Ukraine - uk -->
+<!-- Мова не визначена - zxx -->
+<!-- Коди мов https://html-css.co.ua/html/lang-kodu-mov/ -->
+<html lang="zxx">
+	<head>
+		<!-- Кодування тексту -->
+		<meta charset="UTF-8">
+		<!-- Налаштування в'юпорту (адаптиву, масштабу тощо) -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Варіант !! Основний!! (підключення окремого файлу) -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Заголовок сторінки в браузері (вкладці) -->
+		<title>Lesson 10</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container">
+					<ul class="menu-list">
+						<li class="menu-list__item">
+							<a href="#" class="menu-list__link">Item 1</a>
+						</li>
+						<li class="menu-list__item">
+							<a href="#" class="menu-list__link">Item 2</a>
+							<ul class="sub-menu-list">
+								<li class="sub-menu-list__item">
+									<a href="#" class="sub-menu-list__link">Sub Item 1</a>
+								</li><li class="sub-menu-list__item">
+									<a href="#" class="sub-menu-list__link">Sub Item 2</a>
+								</li><li class="sub-menu-list__item">
+									<a href="#" class="sub-menu-list__link">Sub Item 3</a>
+
+									<ul class="inner-list">
+										<li class="inner-list__item">
+											<a href="#" class="inner-list__link">Inner link 1</a>
+										</li>
+										<li class="inner-list__item">
+											<a href="#" class="inner-list__link">Inner link 2</a>
+										</li>
+										<li class="inner-list__item">
+											<a href="#" class="inner-list__link">Inner link 3</a>
+										</li>
+										<li class="inner-list__item">
+											<a href="#" class="inner-list__link">Inner link 4</a>
+										</li>
+									</ul>
+
+								</li>
+							</ul>
+						</li>
+						<li class="menu-list__item">
+							<a href="#" class="menu-list__link">Item 3</a>
+						</li>
+						<li class="menu-list__item">
+							<a href="#" class="menu-list__link">Item 4</a>
+						</li>
+					</ul>
+				</div>
+			</header>
+			<main class="main">
+				<div class="block">
+					<div class="block__container">
+						<ul class="features-list">
+							<li class="features-list__item features-list__item--active">Unlimited
+								product updates</li>
+							<li class="features-list__item features-list__item--active">Unlimited
+								product</li>
+							<li class="features-list__item features-list__item--active">Unlimited
+								product</li>
+							<li class="features-list__item">1GB Cloud
+								storage</li>
+							<li class="features-list__item">Email and community support</li>
+						</ul>
+					</div>
+				</div>
+				<section class="section-face">
+					<div class="section-face__container">
+						<h2 class="section-face__title">Face</h2>
+						<ul class="section-face__list">
+							<li class="section-face__item">
+								<!-- <div class="bg-block"></div> -->
+								<picture>
+									<source
+										srcset="img/content/cleanser.avif 1x, img/content/cleanser-x2.avif 2x, img/content/cleanser-x3.avif 3x"
+										type="image/avif">
+									<source
+										srcset="img/content/cleanser.webp 1x, img/content/cleanser-x2.webp 2x, img/content/cleanser-x3.webp 3x"
+										type="image/webp">
+									<img src="img/content/cleanser.jpg"
+										alt="A woman applying cleansers to her face">
+								</picture>
+								<h3 class="section-face__label">Cleansers</h3>
+								<a href="#" class="section-face__link">More</a>
+							</li>
+							<li class="section-face__item">
+								<!-- <div class="bg-block"></div> -->
+								<picture>
+									<source
+										srcset="img/content/eye-patches.avif 1x, img/content/eye-patches-x2.avif 2x, img/content/eye-patches-x3.avif 3x"
+										type="image/avif">
+									<source
+										srcset="img/content/eye-patches.webp 1x, img/content/eye-patches-x2.webp 2x, img/content/eye-patches-x3.webp 3x"
+										type="image/webp">
+									<img src="img/content/eye-patches.jpg"
+										alt="Woman who used eye patches">
+								</picture>
+								<h3 class="section-face__label">Eye Patches</h3>
+								<a href="#" class="section-face__link">More</a>
+							</li>
+							<li class="section-face__item">
+								<!-- <div class="bg-block"></div> -->
+								<picture>
+									<source
+										srcset="img/content/mask.avif 1x, img/content/mask-x2.avif 2x, img/content/mask-x3.avif 3x"
+										type="image/avif">
+									<source
+										srcset="img/content/mask.webp 1x, img/content/mask-x2.webp 2x, img/content/mask-x3.webp 3x"
+										type="image/webp">
+									<img src="img/content/mask.jpg" alt="Woman using a face mask">
+								</picture>
+								<h3 class="section-face__label">Мasks</h3>
+								<a href="#" class="section-face__link">More</a>
+							</li>
+						</ul>
+						<a href="#" class="section-face__button">More</a>
+					</div>
+				</section>
+			</main>
+			<footer class="footer">
+				<div class="footer__container">
+					<span>I'm footer</span>
+				</div>
+			</footer>
+		</div>
+	</html>
