@@ -27,15 +27,6 @@
   line-height: 142.105263%; /* 27px/19px */
   vertical-align: bottom;
 }
-.first-page__btn {
-  background-color: transparent;
-}
-.first-page__btn::after {
-  content: "";
-  background: url("../img/right-arrow.svg") no-repeat;
-  width: 25px;
-  height: 25px;
-}
 .first-page__right span {
   display: inline-block;
   max-width: 680px;
