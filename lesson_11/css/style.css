@@ -64,7 +64,7 @@
   border-radius: 10px;
   background-color: rgb(222, 184, 135);
 }
-.translate__wrapper:hover {
+.translate:hover .translate__wrapper {
   transform: translate(30px, 30px);
 }
 
@@ -86,7 +86,7 @@
   background-color: rgb(222, 184, 135);
 }
 
-.scale__wrapper:hover {
+.scale:hover .scale__wrapper {
   transform: scale(1.2, 1.2);
 }
 
@@ -107,7 +107,7 @@
   border-radius: 10px;
   background-color: rgb(222, 184, 135);
 }
-.rotate__wrapper:hover {
+.rotate:hover .rotate__wrapper {
   transform: rotate(20deg);
 }
 
@@ -128,7 +128,7 @@
   border-radius: 10px;
   background-color: rgb(222, 184, 135);
 }
-.skew__wrapper:hover {
+.skew:hover .skew__wrapper {
   transform: skew(20deg, 20deg);
 }
 
@@ -149,7 +149,7 @@
   border-radius: 10px;
   background-color: rgb(222, 184, 135);
 }
-.matrix__wrapper:hover {
+.matrix:hover .matrix__wrapper {
   transform: matrix(1, 0.1, 0.1, 1, 10, 15);
 }
 
@@ -170,7 +170,7 @@
   border-radius: 10px;
   background-color: rgb(222, 184, 135);
 }
-.transformations-set__wrapper:hover {
+.transformations-set:hover .transformations-set__wrapper {
   transform: translate(30px, 30px) rotate(20deg) skew(20deg, 20deg);
 }
 
@@ -191,7 +191,7 @@
   border-radius: 10px;
   background-color: rgb(222, 184, 135);
 }
-.transform-origin__wrapper:hover {
+.transform-origin:hover .transform-origin__wrapper {
   transform: rotate(60deg);
 }
 
@@ -213,7 +213,7 @@
   background-color: rgb(222, 184, 135);
   perspective-origin: center;
 }
-.perspective__wrapper:hover {
+.perspective:hover .perspective__wrapper {
   transform: rotateY(45deg);
 }
 
@@ -239,7 +239,7 @@
   border-radius: 10px;
   background-color: rgb(222, 184, 135);
 }
-.translate3d__wrapper:hover {
+.translate3d:hover .translate3d__wrapper {
   transform: translate3d(30px, 30px, 15px);
 }
 
@@ -260,7 +260,7 @@
   border-radius: 10px;
   background-color: rgb(222, 184, 135);
 }
-.scale3d__wrapper:hover {
+.scale3d:hover .scale3d__wrapper {
   transform: scale3d(1.3, 1.3, 1.3);
 }
 
@@ -281,7 +281,7 @@
   border-radius: 10px;
   background-color: rgb(222, 184, 135);
 }
-.rotate3d__wrapper:hover {
+.rotate3d:hover .rotate3d__wrapper {
   transform: rotate3d(5, 5, 3, 34deg);
 }
 
@@ -304,7 +304,7 @@
   border-radius: 10px;
   background-color: rgb(222, 184, 135);
 }
-.martrix3d__wrapper:hover {
+.martrix3d:hover .martrix3d__wrapper {
   transform: matrix3d(
     0.87,
     -0.5,
@@ -342,7 +342,7 @@
   border-radius: 10px;
   background-color: rgb(222, 184, 135);
 }
-.transformations-set-3d__wrapper:hover {
+.transformations-set-3d:hover .transformations-set-3d__wrapper {
   transform: translate3d(25px, 15px, 30px) rotate3d(0, 1, 1, 30deg);
 }
 
@@ -364,7 +364,7 @@
   border-radius: 10px;
   background-color: rgb(222, 184, 135);
 }
-.transform-style__wrapper:hover {
+.transform-style:hover .transform-style__wrapper {
   transform: rotateY(120deg);
 }
 
@@ -385,7 +385,7 @@
   border-radius: 10px;
   background-color: rgb(222, 184, 135);
 }
-.backface-visibility__wrapper:hover {
+.backface-visibility:hover .backface-visibility__wrapper {
   transform: rotateY(140deg);
   backface-visibility: visible;
 }
