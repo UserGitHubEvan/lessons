@@ -82,6 +82,10 @@
   border-color: #2f302c;
 }
 
+.list-tabs__link--active {
+  border-bottom: 2px solid #2f302c;
+}
+
 .featured-products__products-list {
 }
 .list-products {
