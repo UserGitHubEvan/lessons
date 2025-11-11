@@ -1,0 +1,165 @@
+/* Змінні */
+/* :root {
+  --main: #2f302c;
+  --under-main: #7e7f7c;
+} */
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Підключення стилів */
+
+/* Основні стилі  */
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  overflow: clip;
+
+  display: flex;
+  flex-direction: column;
+}
+.wrapper > main {
+  flex-grow: 1;
+}
+[class*="__container"] {
+  max-width: 1392px;
+  margin: 0 auto;
+}
+.header__container,
+.footer__container {
+  /* border-left: 1px solid white;
+  border-right: 1px solid white; */
+}
+.header,
+.footer {
+  height: 100px;
+  background: black;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+}
+
+/* ------------------- section featured-products ------------------- */
+.featured-products,
+.why-choose-us {
+  padding: 82px 15px;
+}
+.featured-products__title,
+.why-choose-us__title {
+  font-size: 32px;
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  line-height: 125%; /* 40px/32px */
+  text-transform: uppercase;
+  margin-bottom: 36px;
+  text-align: center;
+}
+.list-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  margin-bottom: 72px;
+}
+.list-tabs__item {
+}
+.list-tabs__link {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  line-height: 125%; /* 20px/16 */
+  text-transform: uppercase;
+  padding-bottom: 8px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.5s;
+}
+.list-tabs__link:hover {
+  border-color: #2f302c;
+}
+
+.featured-products__products-list {
+}
+.list-products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px 36px;
+}
+.list-products__card {
+  flex: 0 1 440px;
+  transform: scale(1);
+  transition: all 0.5s;
+}
+.list-products__card:hover {
+  transform: scale(1.1);
+}
+.list-products__link {
+}
+.list-products__content {
+  padding-top: 32px;
+  text-align: center;
+}
+.list-products__title {
+  font-family: "Lato", sans-serif;
+  line-height: 125%; /* 20px/16 */
+  text-transform: uppercase;
+}
+.list-products__title:not(:last-child) {
+  margin-bottom: 12px;
+}
+.list-products__stars {
+}
+.list-products__stars:not(:last-child) {
+  margin-bottom: 12px;
+}
+.list-products__price {
+}
+.list-products__price p {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  line-height: 140%; /* 28px/20 */
+}
+/* -------------------------------------------------------- */
+.why-choose-us {
+}
+.why-choose-us__title {
+}
+.why-choose-us__title--margin-bottom {
+  margin-bottom: 72px;
+}
+.list-features {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 68px;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.list-features__item {
+  flex: 0 1 348px;
+}
+.list-features__image {
+}
+.list-features__image:not(:last-child) {
+  margin-bottom: 24px;
+}
+.list-features__label {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  line-height: 125%; /* 20px/16 */
+  text-transform: uppercase;
+}
+.list-features__label:not(:last-child) {
+  margin-bottom: 24px;
+}
+.list-features__text {
+}
+.list-features__text p {
+  color: #7e7f7c;
+  line-height: 125%; /* 20px/16px */
+}
