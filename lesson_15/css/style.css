@@ -377,7 +377,7 @@ body {
     transform: translate(-50%, 0px);
   }
 }
-@media screen and (orientation: landscape) {
+@media (max-width: 766px) and (orientation: landscape) {
   .hero-section__main-title::after {
     left: 17%;
     transform: translate(-30%, 0px);
