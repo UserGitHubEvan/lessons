@@ -167,6 +167,7 @@ button[type="button"]:hover {
   font-weight: 800;
   line-height: 125%; /* 40px/32 */
   text-transform: uppercase;
+  margin-bottom: 72px;
 }
 .content__form {
 }
@@ -175,11 +176,9 @@ button[type="button"]:hover {
 .form-content__line {
   display: flex;
   gap: 40px;
-}
-.form-content__line input {
   margin-bottom: 40px;
 }
-.form-content__line input:not(:last-child) {
+.form-content__line:not(:last-child) {
   margin-bottom: 40px;
 }
 .form-content__line input {
@@ -196,9 +195,6 @@ button[type="button"]:hover {
 .form-content__line:nth-child(3) input {
   width: 47%;
 }
-.form-content__line:nth-child(3) input {
-  margin-bottom: 0px;
-}
 .form-content__line:nth-child(3) {
   margin-bottom: 72px;
 }
@@ -208,38 +204,51 @@ button[type="button"]:hover {
   background-color: #2f302c;
 }
 .banner {
-  width: 600px;
+  flex-basis: 600px;
   position: relative;
+  background: #f6f6f6;
+  overflow: hidden;
 }
-.banner__sale {
-  position: absolute;
-  top: 224px;
-  left: 80px;
+
+.banner__body {
+  padding: 51px 80px;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 24px;
+  align-items: flex-start;
+  justify-content: end;
+  position: relative;
+  z-index: 1;
 }
-.banner__hot {
-  align-self: flex-start;
+.banner__sale {
+}
+.banner__label {
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;
   background-color: #ce0000;
   padding: 4px 8px;
+  border-radius: 4px;
+  max-width: 51px;
+  width: 100%;
+  margin-bottom: 33px;
 }
 .banner__text {
-  max-width: 184px;
 }
 .banner__text p {
   font-size: 32px;
   font-weight: 800;
-  line-height: 125%; /* 40px/32 */
+  line-height: 125%;
   text-transform: uppercase;
   text-align: left;
 }
 
 .banner__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
